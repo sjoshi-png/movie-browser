@@ -1,0 +1,82 @@
+/* TO-DO */
+html{
+font-family: Arial, sans-serif;
+background-color: #dedede;
+}
+
+.navbar{
+  background-color: rgb(39, 53, 68);
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  }
+
+h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.navbar2{
+  background-color: rgb(44, 63, 84);
+  display: flex;
+  position: fixed;
+  top: 150px;
+  height: 80px;
+  width: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 0;
+  align-items: center;
+  gap: 20px;
+}
+
+input{
+  width: fit-content;
+  font-size: 16px;
+  border-radius: 6px;
+  height: 40px;
+  border: 1px;
+  text-indent: 6px;
+}
+
+select{
+  width: auto;
+  font-size: 16px;
+  height: 40px;
+  text-indent: 6px;
+  border: 1px;
+  border-radius: 6px;
+}
+
+#movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 40px;
+  padding: 40px;
+  margin-top: 230px;
+}
+
+.movie-card {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width:250px;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.pagination {
+  text-align: center;
+  margin: 20px;
+}
